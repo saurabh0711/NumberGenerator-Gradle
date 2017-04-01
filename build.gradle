@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 group = 'com.mkyong'
-version = '1.0-SNAPSHOT'
+version = new Version( 1, 0, System.env.BUILD_NUMBER )  
 
 description = """NumberGenerator"""
 
